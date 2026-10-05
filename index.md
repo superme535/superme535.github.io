@@ -1,21 +1,27 @@
 # Jeffery Cai
 
-Engineering Student  
-Software Development | Computational Design | Game Systems
+Mechanical Engineering Student  
+Engineering Analysis | Computational Modeling | Mechanical Design | Technical Problem-Solving
 
 ## About Me
 
-I am an engineering student interested in building tools that connect technical analysis with practical design problems. My current interests include software development, computational modeling, map analysis, artificial intelligence, and game-system design. I am especially interested in using engineering and mathematical ideas to better understand complex systems and turn them into interactive tools.
+I am a Mechanical Engineering student interested in understanding how complex systems can be modeled, analyzed, and improved through engineering methods. My interests include mechanical design, engineering analysis, computational modeling, dynamics, and using programming as a tool to solve engineering problems.
 
-This portfolio is an early draft that I plan to continue developing as I gain more experience and complete more engineering projects.
+I am especially interested in projects where mathematical or physical ideas can be turned into practical models, simulations, or interactive tools. Alongside my mechanical engineering coursework, I have also worked on independent computational projects that have helped me develop experience with problem definition, modeling, debugging, iterative design, and technical communication.
+
+This portfolio is an early draft that I plan to continue developing as I complete more mechanical engineering coursework and engineering projects.
 
 ## Featured Project: MOBA Map Topology Viewer
 
-The MOBA Map Topology Viewer is a project I developed as part of a larger idea for designing a MOBA manager game. The purpose of the project is to create a tool that can analyze a MOBA map beyond simply looking at its visual appearance.
+The MOBA Map Topology Viewer is an independent computational modeling project that I originally developed while designing a MOBA manager game.
 
-The program can generate a navigation mesh and analyze features such as connected regions, important routes, critical points, and areas that many possible paths pass through. It automatically generates triangles for the paths so that the map can be analyzed geometrically and mathematically.
+Although the application is related to game design, the main problem behind the project is similar to many engineering problems: how can a complex physical or spatial system be converted into a mathematical representation that a computer can analyze?
 
-I later added definable game objectives with priorities and influence ranges. This allows different objects on the map to have different levels of strategic importance and gives the program more information about how the map may actually function during gameplay.
+A human can look at a map and quickly recognize narrow passages, intersections, important routes, and strategically important locations. A computer cannot interpret these relationships in the same way without first converting the map into a structured model.
+
+I therefore developed a tool that represents the map using geometry, connected regions, navigation meshes, paths, and strategic objects. The program can then analyze relationships between these elements rather than treating the map only as an image.
+
+The project has allowed me to practice computational modeling, geometric reasoning, system representation, algorithmic analysis, and iterative engineering design.
 
 Online version:  
 https://superme535.github.io/MOBA-Map-Topology-Viewer/
@@ -23,60 +29,87 @@ https://superme535.github.io/MOBA-Map-Topology-Viewer/
 Repository:  
 https://github.com/superme535/MOBA-Map-Topology-Viewer
 
-## Unit 1 Project Background
-
-One project that I have worked on recently was a MOBA Map Topology Viewer. I originally started this project because I am designing a MOBA manager game, and I wanted a better way to understand the maps during the design phase. In a MOBA, players could normally look at a map and recognize that certain paths, intersections, narrow areas, or etc, could be considered strategically important, or considered as “crucial points”. However, when I started thinking about how a game system or AI would understand the same map, I realized that simply giving AI this geometrical information would not make them “MOBA masters” in the blink of an eye.
-
-This thinking led me to build a tool that represents the map in a more analytical way. This program can generate a navigation mesh and analyze things such as connected regions, important routes, critical points, and areas that many possible paths pass through. The program will automatically generate triangles for the paths so that it could be analyzed geometrically and mathematically. Later, I also added definable game objectives with priorities and influence ranges.
-
 ## Engineering Problem
 
-The main problem I wanted to explore was how a computer system could understand the strategic structure of a MOBA map.
+The main engineering-style problem I explored through this project was how to convert a complex spatial environment into a simplified model that could still preserve the relationships that matter.
 
-A human player can look at a map and recognize that some intersections, narrow paths, routes, and objectives are more important than others. A computer, however, needs this information to be represented in a form that can be measured and analyzed.
+This required several questions:
 
-Instead of treating the map only as an image, I began representing it as a network of connected spaces, paths, triangles, strategic objects, and relationships between locations.
+- How should the map be divided into regions that a computer can analyze?
+- How should connections between different areas be represented?
+- How can important routes and bottlenecks be identified?
+- How can different objectives be assigned different levels of importance?
+- How much information is necessary before the model becomes useful?
+- How can the results be displayed in a way that a person can understand?
+
+These questions are similar to problems that appear throughout engineering, where a real system often needs to be simplified into a model before meaningful analysis can be performed.
 
 ## Current Features
 
-- Interactive MOBA map editing
+- Interactive map editing
 - Navigation mesh generation
+- Triangular geometric representation
 - Connected-region analysis
 - Route analysis
-- Identification of critical points
-- Analysis of areas used by many possible paths
-- Definable game objectives
-- Custom objective priorities
+- Identification of critical locations
+- Analysis of areas shared by many possible paths
+- Definable objectives
+- Adjustable objective priorities
 - Objective influence ranges
-- Geometric and topology-based map analysis
+- Geometric and topology-based analysis
 
-## What I Learned
+## Mechanical Engineering Interests
 
-This project helped me understand that designing a technical tool involves more than programming individual features. I also had to think about how information should be represented, what information is actually useful, and how different parts of the system should interact.
+My current engineering interests include:
 
-It also introduced me to the idea of applying concepts such as topology, graph-like connectivity, geometry, and path analysis to a game-design problem.
-
-Another important part of the project has been learning how to communicate what the program actually does. The source code may show how the program works, but documentation and explanation are necessary to show why the program was created and what problem it is trying to solve.
-
-## Skills and Interests
-
-My current technical interests include:
-
-- Software development
+- Mechanical design
+- Engineering mechanics
+- Dynamics and kinematics
+- Strength of materials
 - Computational modeling
-- Interactive tools
+- Engineering simulation
+- System modeling
+- Design optimization
+- Automation
+- Technical programming
 - Engineering visualization
-- Map and spatial analysis
-- Game-system design
-- Artificial intelligence
-- Topology and connectivity
-- Technical problem-solving
-- Debugging and iterative development
+- Mathematical modeling
+- Iterative design and testing
+
+I am particularly interested in becoming more capable of combining traditional mechanical engineering analysis with computational tools.
+
+## Computational Tools in Mechanical Engineering
+
+Programming is not the main field I want this portfolio to represent. Instead, I view programming as another engineering tool.
+
+Mechanical engineers increasingly work with simulation, numerical analysis, CAD, data processing, optimization, and automated engineering workflows. My independent software projects have given me experience thinking computationally about engineering problems and have helped me become more comfortable turning mathematical ideas into working tools.
+
+As I continue my mechanical engineering education, I would like to apply these skills more directly to mechanical systems, such as motion analysis, structural behavior, mechanical design, simulation, and engineering optimization.
+
+## Coursework and Developing Skills
+
+Through my Mechanical Engineering coursework, I am continuing to develop experience in areas including engineering mechanics, kinematics, differential equations, structural analysis, and mathematical modeling.
+
+These courses are helping me build the physical and mathematical foundation needed to analyze real mechanical systems. I am especially interested in connecting this coursework with computational methods so that I can move from solving individual textbook problems toward analyzing larger engineering systems.
 
 ## Future Development
 
-The MOBA Map Topology Viewer is still under development. I would like to continue improving its ability to identify strategically important areas of a map rather than only describing its geometry.
+The MOBA Map Topology Viewer is still under development. For this project, I would like to continue improving the analytical side of the program, including identification of bottlenecks, critical routes, objective influence, and relationships between changes in geometry and changes in system behavior.
 
-Possible future development includes more advanced identification of bottlenecks and critical routes, better objective influence analysis, AI-oriented map representations, and analysis of how changes to the map could affect gameplay.
+For my portfolio overall, I plan to gradually add projects that are more directly connected to mechanical engineering.
 
-I also plan to continue developing this portfolio by adding additional engineering projects, screenshots, technical explanations, design-process examples, and other work from my courses.
+Future portfolio work may include:
+
+- Mechanical design projects
+- CAD models
+- Statics and dynamics analysis
+- Kinematics projects
+- Strength of materials work
+- MATLAB-based engineering analysis
+- Simulations
+- Design calculations
+- Technical reports
+- Engineering drawings
+- Experimental or laboratory work
+
+My goal is for this portfolio to eventually show both my mechanical engineering foundation and my ability to use computational tools to analyze and design complex systems.
